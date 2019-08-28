@@ -1,0 +1,49 @@
+body {
+	background-color: #ff00b7;
+}
+header {
+	background-color: #ff0000;
+	background-image: url("Man100.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 93px;
+	padding: 8px;
+	padding-left: 13px;
+}
+footer {
+	background-color: #091969;
+	color: white;
+}
+#content {
+	min-height: 364px;
+	background-color: #eebbef;
+}
+header, footer, #content {
+	border-style: solid;
+	border-width: 1px;
+	border-color: purple;
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	box-shadow: 5px 5px 5px yellow;
+}
+h1 {
+	color: yellow;
+	font-size: 250%;
+	font-family: Impact, Times;
+}
+img {
+	float: left;
+}
+a:link {
+	font-family: 
+	color: green;
+}
+a:visited {
+	color: red;
+}
+a:hover {
+	color: hotpink;
+}
