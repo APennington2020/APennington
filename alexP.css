@@ -4,7 +4,7 @@ body {
 header {
 	background-color: #ff0000;
 	background-image: url("Man100.jpg");
-	background-position: right;
+	background-position: right 5px top 7px;
 	background-repeat: no-repeat;
 	height: 93px;
 	padding: 8px;
@@ -13,9 +13,10 @@ header {
 footer {
 	background-color: #091969;
 	color: white;
+	text-align: center;
 }
 #content {
-	min-height: 364px;
+	min-height: 400px;
 	background-color: #eebbef;
 }
 header, footer, #content {
@@ -34,7 +35,7 @@ h1 {
 	font-size: 250%;
 	font-family: Impact, Times;
 }
-img {
+.floatImg {
 	float: left;
 }
 a:link {
@@ -46,4 +47,9 @@ a:visited {
 }
 a:hover {
 	color: hotpink;
+}
+ul {
+	list-style-position: inside;
+	margin: 0;
+	padding: 0;
 }
